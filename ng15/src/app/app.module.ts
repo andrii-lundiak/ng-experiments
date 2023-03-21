@@ -14,7 +14,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     AppRoutingModule,
     BrowserAnimationsModule
   ],
-  providers: [],
+  providers: [
+    // LundiakService,
+    // BabiiService,
+  ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}

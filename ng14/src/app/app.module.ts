@@ -26,9 +26,9 @@ import { LundiakService } from './services/lundiak.service';
     //     console.log(a);
     //   }
     // },
-    { provide: LundiakService, useValue: 'dummy' },
-    { provide: BabiiService, useValue: true }
+    // { provide: LundiakService, useValue: 'dummy' },
+    // { provide: BabiiService, useValue: true }
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
