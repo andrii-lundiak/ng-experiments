@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'ng1610-next-2'`, () => {
+  it(`should have as title 'ng1611'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ng1610-next-2');
+    expect(app.title).toEqual('ng1611');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('ng1610-next-2 app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('ng1611 app is running!');
   });
 });
